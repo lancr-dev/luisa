@@ -11,7 +11,7 @@ body {
   background-image: url("materials/purple-background.jpg");
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
   font-family: "Comic Neue", cursive;
   font-weight: 700;
@@ -68,15 +68,20 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: clamp(16px, 3vw, 22px);
-  max-width: 90%;
+  width: auto;
+  max-width: 95%;
+  min-width: 300px;
   line-height: 1.5;
   display: none;
   white-space: pre-wrap;
+  word-wrap: break-word;
   background: linear-gradient(135deg, #b994f3, #ffcefd, #fddbbb);
   padding: clamp(15px, 3vw, 30px);
   border-radius: 20px;
   color: #8900a5;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  overflow-y: auto;
+  max-height: 80vh;
 }
 
 .confetti {
