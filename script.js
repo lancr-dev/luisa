@@ -20,10 +20,20 @@ const messageText =
   "SURPRISEEEEE!!!!🎉🥳 HAPPYY HAPPYYYY 19TH🎂🧁BIRTHDAY KURDAPSSSS!!💜💜 same na tayoo😆💚 matanda ka na rin💚😆😆 WSHAHAHAHAHAHAHA💚💜. Wish ko sa birthday mo, ay matupad ang mga wish mo at maging masaya ka, celebrate and enjoy your day💜💜😸 and I wish na bigyan ka ulit ng napakaraming energy, strength, courage, and self trust for this another chapter of your life💚💜. And again I want you to be proud of yourself sa lahat ng pinagdaanan mo throughout the years💚 at wag na wag susuko for your dreamsss💜💜 Always remember that I'm here to cheer and support you Luluu!💚. Again, HAPPYY HAPPYYY BIRTHDAYYY KURDAPSS KOO!!💚💚💜💜😸 ";
 
 button.addEventListener("click", () => {
-  button.style.display = "none";
-  messageDiv.style.display = "block";
-  typeMessage(messageText, messageDiv, 0);
-  createConfettiInfinite(200);
+  button.style.opacity = 0;
+
+  setTimeout(() => {
+    button.style.display = "none";
+
+    messageDiv.style.display = "block";
+
+    requestAnimationFrame(() => {
+      messageDiv.style.opacity = 1;
+    });
+
+    typeMessage(messageText, messageDiv, 0);
+    createConfettiInfinite(200);
+  }, 600);
 });
 
 function typeMessage(text, element, index) {
