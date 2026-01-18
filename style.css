@@ -11,9 +11,11 @@ body {
   background-image: url("materials/purple-background.jpg");
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: cover;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
   overflow: hidden;
   text-align: center;
   color: #fff;
@@ -39,11 +41,14 @@ body {
 
 #surpriseButton {
   padding: clamp(12px, 2vw, 18px) clamp(20px, 4vw, 40px);
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
   font-size: clamp(16px, 4vw, 22px);
   border: none;
   border-radius: 12px;
   background: linear-gradient(135deg, #b994f3, #ffcefd);
-  color: white;
+  color: #8900a5;
   cursor: pointer;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
   transition: transform 0.2s;
@@ -70,7 +75,7 @@ body {
   background: linear-gradient(135deg, #b994f3, #ffcefd, #fddbbb);
   padding: clamp(15px, 3vw, 30px);
   border-radius: 20px;
-  color: #710088;
+  color: #8900a5;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 

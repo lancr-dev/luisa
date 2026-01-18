@@ -17,7 +17,7 @@ const button = document.getElementById("surpriseButton");
 const messageDiv = document.getElementById("message");
 
 const messageText =
-  "SURPRISEEEEE!!!!🎉🥳 HAPPYY HAPPYYYY 19TH🎂🧁BIRTHDAY KURDAPSSSS!! WSHHAHHAHSHHA💜💜 same na tayo kala mo dyann😆💚WHAHSHAHAHAHHAHA matanda ka na rin💚😆😆. Wish ko sa birthday mo, ay matupad ang mga wish mo at maging masaya ka, celebrate and enjoy your day💜💜😸 and I wish na bigyan ka ulit ng napakaraming energy, strength, courage, and self trust for this another chapter of your life💚💜. And again I want you to be proud of yourself sa lahat ng pinagdaanan mo throughout the years💚 at wag na wag susuko for your dreamsss💜💜 Always remember that I'm here to cheer and support you Luluu!💚. Again, HAPPYY HAPPYYY BIRTHDAYYY KURDAPSS KOO!!💚💚💜💜😸 ";
+  "SURPRISEEEEE!!!!🎉🥳 HAPPYY HAPPYYYY 19TH🎂🧁BIRTHDAY KURDAPSSSS!!💜💜 same na tayoo😆💚 matanda ka na rin💚😆😆. Wish ko sa birthday mo, ay matupad ang mga wish mo at maging masaya ka, celebrate and enjoy your day💜💜😸 and I wish na bigyan ka ulit ng napakaraming energy, strength, courage, and self trust for this another chapter of your life💚💜. And again I want you to be proud of yourself sa lahat ng pinagdaanan mo throughout the years💚 at wag na wag susuko for your dreamsss💜💜 Always remember that I'm here to cheer and support you Luluu!💚. Again, HAPPYY HAPPYYY BIRTHDAYYY KURDAPSS KOO!!💚💚💜💜😸 ";
 
 button.addEventListener("click", () => {
   button.style.display = "none";
